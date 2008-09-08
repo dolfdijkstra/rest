@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets>
+                    <assetdata><assettype>Template</assettype><id>1121304726674</id><updateddate>2008-07-28 15:16:57</updateddate><name>FSIILayout</name><status>ED</status><createdby>firstsite</createdby><createddate>2005-07-14 00:30:06</createddate><updatedby>firstsite</updatedby><description>Generates an overall layout of a page which includes calling the Detail template for the specified asset.</description></assetdata>
+                    <assetdata><assettype>Template</assettype><id>1121398075705</id><updateddate>2008-07-28 15:17:01</updateddate><name>FSIITopNav</name><status>ED</status><createdby>firstsite</createdby><createddate>2005-07-14 23:45:52</createddate><updatedby>firstsite</updatedby><description>Generates the top header, given the site and the current page&#39;s c and cid.</description></assetdata>
+</assets>

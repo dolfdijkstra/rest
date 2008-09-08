@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assettypes>
+    <assettype>
+        <name>AttrTypes</name>
+        <description>Attribute Editor</description>
+    </assettype>
+    <assettype>
+        <name>Content_C</name>
+        <description>Content</description>
+        <subtype>ContentTestDef</subtype>
+        <subtype>ContentWithContent</subtype>
+        <subtype>FSII Article</subtype>
+    </assettype>
+    <assettype>
+        <name>Content_A</name>
+        <description>Content Attribute</description>
+    </assettype>
+    <assettype>
+        <name>Content_CD</name>
+        <description>Content Definition</description>
+    </assettype>
+    <assettype>
+        <name>Content_F</name>
+        <description>Content Filter</description>
+    </assettype>
+    <assettype>
+        <name>Content_P</name>
+        <description>Content Parent</description>
+        <subtype>FSII ContentCategory</subtype>
+        <subtype>GrantParentDef</subtype>
+        <subtype>TestDef</subtype>
+    </assettype>
+    <assettype>
+        <name>Content_PD</name>
+        <description>Content Parent Definition</description>
+    </assettype>
+    <assettype>
+        <name>CSElement</name>
+        <description>CSElement</description>
+    </assettype>
+    <assettype>
+        <name>Dimension</name>
+        <description>Dimension</description>
+    </assettype>
+    <assettype>
+        <name>DimensionSet</name>
+        <description>DimensionSet</description>
+    </assettype>
+    <assettype>
+        <name>Document_C</name>
+        <description>Document</description>
+        <subtype>FSII Document</subtype>
+    </assettype>
+    <assettype>
+        <name>Document_A</name>
+        <description>Document Attribute</description>
+    </assettype>
+    <assettype>
+        <name>Document_CD</name>
+        <description>Document Definition</description>
+    </assettype>
+    <assettype>
+        <name>Document_F</name>
+        <description>Document Filter</description>
+    </assettype>
+    <assettype>
+        <name>Document_P</name>
+        <description>Document Parent</description>
+        <subtype>FSII Folder</subtype>
+    </assettype>
+    <assettype>
+        <name>Document_PD</name>
+        <description>Document Parent Definition</description>
+    </assettype>
+    <assettype>
+        <name>HFields</name>
+        <description>History Attribute</description>
+    </assettype>
+    <assettype>
+        <name>HistoryVals</name>
+        <description>History Definition</description>
+    </assettype>
+    <assettype>
+        <name>Media_C</name>
+        <description>Media</description>
+        <subtype>FSII_Image</subtype>
+    </assettype>
+    <assettype>
+        <name>Media_A</name>
+        <description>Media Attribute</description>
+    </assettype>
+    <assettype>
+        <name>Media_CD</name>
+        <description>Media Definition</description>
+    </assettype>
+    <assettype>
+        <name>Media_F</name>
+        <description>Media Filter</description>
+    </assettype>
+    <assettype>
+        <name>Media_P</name>
+        <description>Media Parent</description>
+        <subtype>FSII_ImageCategory</subtype>
+    </assettype>
+    <assettype>
+        <name>Media_PD</name>
+        <description>Media Parent Definition</description>
+    </assettype>
+    <assettype>
+        <name>Page</name>
+        <description>Page</description>
+    </assettype>
+    <assettype>
+        <name>Product_C</name>
+        <description>Product</description>
+        <subtype>FSII Product</subtype>
+    </assettype>
+    <assettype>
+        <name>Product_A</name>
+        <description>Product Attribute</description>
+    </assettype>
+    <assettype>
+        <name>Product_CD</name>
+        <description>Product Definition</description>
+    </assettype>
+    <assettype>
+        <name>Product_F</name>
+        <description>Product Filter</description>
+    </assettype>
+    <assettype>
+        <name>Product_P</name>
+        <description>Product Parent</description>
+        <subtype>FSIICategory</subtype>
+        <subtype>FSIIManufacturer</subtype>
+        <subtype>FSIIProductTopLevel</subtype>
+        <subtype>FSIISubcategory</subtype>
+    </assettype>
+    <assettype>
+        <name>Product_PD</name>
+        <description>Product Parent Definition</description>
+    </assettype>
+    <assettype>
+        <name>Promotions</name>
+        <description>Promotion</description>
+    </assettype>
+    <assettype>
+        <name>Query</name>
+        <description>Query</description>
+    </assettype>
+    <assettype>
+        <name>AdvCols</name>
+        <description>Recommendation</description>
+    </assettype>
+    <assettype>
+        <name>Segments</name>
+        <description>Segment</description>
+    </assettype>
+    <assettype>
+        <name>FSIIVisitor</name>
+        <description>Site Visitor</description>
+        <subtype>FSIIBasicVisitor</subtype>
+    </assettype>
+    <assettype>
+        <name>FSIIVisitorAttr</name>
+        <description>Site Visitor Attribute</description>
+    </assettype>
+    <assettype>
+        <name>FSIIVisitorDef</name>
+        <description>Site Visitor Definition</description>
+    </assettype>
+    <assettype>
+        <name>FSIIVisitorParent</name>
+        <description>Site Visitor Parent</description>
+    </assettype>
+    <assettype>
+        <name>FSIIVisitorPDef</name>
+        <description>Site Visitor Parent Definition</description>
+    </assettype>
+    <assettype>
+        <name>SiteEntry</name>
+        <description>SiteEntry</description>
+    </assettype>
+    <assettype>
+        <name>Template</name>
+        <description>Template</description>
+    </assettype>
+    <assettype>
+        <name>ScalarVals</name>
+        <description>Visitor Attribute</description>
+    </assettype>
+</assettypes>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="com/fatwire/cs/ide/sample/RepoSample.java|com/fatwire/cs/ide/sample/ContentServerTransferService.java|com/fatwire/cs/ide/sample/ContentServerTransferServiceTest.java|com/fatwire/cs/rest/sample/ContentServerTransferService.java|com/fatwire/cs/rest/sample/ContentServerTransferServiceTest.java|com/fatwire/cs/rest/sample/RepoSample.java" kind="src" path="src/main/java"/>
+	<classpathentry excluding="**/*.java" kind="src" output="target/test-classes" path="src/test/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="var" path="M2_REPO/junit/junit/3.8.1/junit-3.8.1.jar" sourcepath="M2_REPO/junit/junit/3.8.1/junit-3.8.1-sources.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/fw-rest-core"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
