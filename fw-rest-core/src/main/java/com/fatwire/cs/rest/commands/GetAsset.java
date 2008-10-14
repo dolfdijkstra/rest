@@ -11,6 +11,7 @@ public class GetAsset extends GetAssetData {
 
     public GetAsset(final HttpClient httpClient, final CSLocation location) {
         super(httpClient, location);
+        this.setPublication("Any");
     }
 
 
@@ -21,9 +22,6 @@ public class GetAsset extends GetAssetData {
     @Override
     protected void doAddParameters() {
         map.put("resource", getPublication() +"/"+getAssetType() +"/"+  Long.toString(assetId));
-
-        //map.put("id",);
-
     }
 
     /**
