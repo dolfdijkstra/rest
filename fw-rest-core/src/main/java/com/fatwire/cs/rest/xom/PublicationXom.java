@@ -25,6 +25,15 @@ public class PublicationXom implements XOM<List<Publication>> {
 			final Publication publication = new Publication();
 			publication.setName(p.elementText("name"));
 			publication.setDescription(p.elementText("description"));
+			publication.setPubroot(p.elementText("pubroot"));
+			publication.setPreview(p.elementText("cs_preview"));
+			publication.setPrefix(p.elementText("cs_prefix"));
+			publication.setPreviewAsset(p.elementText("cs_previewasset"));
+		     
+		        
+		        
+		        
+
 			final String v = p.elementText("id");
 			publication.setId(Long.parseLong(v));
 			l.add(publication);
