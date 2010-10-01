@@ -38,7 +38,7 @@ public class Asset extends AssetMetaData {
         return attributes.values();
     }
 
-    public Object getAttributeValue(String name) {
+    public Attribute getAttributeValue(String name) {
         return attributes.get(name);
     }
 
@@ -48,7 +48,9 @@ public class Asset extends AssetMetaData {
     }
 
     public void addAttribute(final Attribute attribute) {
-        attributes.put(attribute.getName(), attribute);
+        Attribute old = attributes.put(attribute.getName(), attribute);
+        if (old != null)
+            throw new IllegalArgumentException("adding attribute with the same name: '" + attribute.getName() + "'.");
         if ("name".equalsIgnoreCase(attribute.getName())) {
             this.setName((String) attribute.getData());
         } else if ("description".equalsIgnoreCase(attribute.getName())) {
@@ -66,20 +68,23 @@ public class Asset extends AssetMetaData {
         }
     }
 
-    /* (non-Javadoc)
+    /*
+     * (non-Javadoc)
+     * 
      * @see java.lang.Object#hashCode()
      */
     @Override
     public int hashCode() {
         final int PRIME = 31;
         int result = super.hashCode();
-        result = PRIME * result
-                + ((attributes == null) ? 0 : attributes.hashCode());
+        result = PRIME * result + ((attributes == null) ? 0 : attributes.hashCode());
         result = PRIME * result + ((subType == null) ? 0 : subType.hashCode());
         return result;
     }
 
-    /* (non-Javadoc)
+    /*
+     * (non-Javadoc)
+     * 
      * @see java.lang.Object#equals(java.lang.Object)
      */
     @Override

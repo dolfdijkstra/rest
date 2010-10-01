@@ -92,6 +92,7 @@ public class DefaultRestService implements RestService {
     private Document createDocument(final byte[] xml) throws DocumentException {
 
         final SAXReader xmlReader = new SAXReader();
+        xmlReader.setEncoding("UTF-8");
         Document doc;
         doc = xmlReader.read(new ByteArrayInputStream(xml));
 
